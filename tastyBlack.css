@@ -1,0 +1,109 @@
+body {
+
+  width: 900px;
+  height: 1200px;
+
+  background-image:url(Sakura.png);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: center top 20px;
+
+  
+  margin-right: auto;
+  margin-left : auto;
+}
+h5 {
+    color:lightgray;
+  }
+  
+h1{
+     position:center;
+     color; #FDFFFF;
+  }
+/*.face {
+  color: #FDFFFF;　    /*白は透けないまま*/
+/*}
+
+.back {
+  color: gray;
+  opacity:0.6       /*空に少し透ける感じ*/
+/*}*/
+
+  /*.balloon {           /*ふきだし部分*/
+   /* position: relative;
+  display: inline-block;
+  padding: 5px;
+  width: auto;
+  min-width: 50px;
+  height: 15px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #FDFFFF;
+  color: rgb(51,123,255); /*写真の空の青に合わせたい*/
+   /* border: none;
+  z-index: 0;
+  border-radius: 15px 15px 15px  15px;     /*丸み*/
+  /*  left: 35%;
+  top: 11.5px;
+}
+.balloon:before {         /*三角形部分*/
+   /* content: "";
+  position: absolute;
+  bottom: -8px; left: 50%;
+  margin-left: -9px;
+  width: 0px;
+  height: 0px;
+  border: none;
+   z-index: 0;
+}
+.balloon:after {
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #FDFFFF transparent transparent transparent;
+  content: "";
+  position: absolute;
+  bottom: -9.5px; left: 50%;
+  margin-left: -10px;
+  width: 0px;
+  height: 0px;
+  z-index: -1;      /*重なりの一番下*/
+  /*  left:45%;
+}
+.rotated {
+  transform: rotate(-15deg);     /* 少し傾ける*/
+  /*  }
+*/
+
+button {     /*右端角を丸く*/
+  padding: 5px 15px;
+  background-color: black;
+  color: #FDFFFF;
+  border-style: none;
+  border-radius:0px 10px 10px 0px;
+}
+
+input {       /*左端角を丸く*/
+  height: 27px;
+  border-style: none;
+  border-radius:10px 0px 0px 10px;
+}
+
+h3 {
+    color:black;
+}
+
+a {           
+    color:black;   
+   }
+
+footer {
+     width: 500px;
+ 　 height: 50px;
+      position: absolute; /*絶対位置*/
+      bottom: 15px; /*下からの距離**/
+     text align:center;
+ }
+ 
+h6 {
+    color:lightgray;
+  }
