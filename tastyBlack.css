@@ -1,5 +1,5 @@
-body {
 
+body {
   width: 900px;
   height: 1200px;
 
@@ -8,72 +8,28 @@ body {
   background-size: 1200px;
   background-position: center top 20px;
 
-  
   margin-right: auto;
   margin-left : auto;
 }
-h5 {
+
+h5 {      /*写真に合わせて傾ける*/
     color:lightgray;
+    position: relative; 
+    top:-60px; 
+    transform: rotate(23.5deg);
+    -moz-transform: rotate(23.5deg);
+    -webkit-transform: rotate(23.5deg);
   }
   
-h1{
-     position:center;
-     color; #FDFFFF;
-  }
-/*.face {
-  color: #FDFFFF;　    /*白は透けないまま*/
-/*}
-
-.back {
-  color: gray;
-  opacity:0.6       /*空に少し透ける感じ*/
-/*}*/
-
-  /*.balloon {           /*ふきだし部分*/
-   /* position: relative;
-  display: inline-block;
-  padding: 5px;
-  width: auto;
-  min-width: 50px;
-  height: 15px;
-  line-height: 20px;
-  text-align: center;
-  background-color: #FDFFFF;
-  color: rgb(51,123,255); /*写真の空の青に合わせたい*/
-   /* border: none;
-  z-index: 0;
-  border-radius: 15px 15px 15px  15px;     /*丸み*/
-  /*  left: 35%;
-  top: 11.5px;
-}
-.balloon:before {         /*三角形部分*/
-   /* content: "";
-  position: absolute;
-  bottom: -8px; left: 50%;
-  margin-left: -9px;
-  width: 0px;
-  height: 0px;
-  border: none;
-   z-index: 0;
-}
-.balloon:after {
-  border-style: solid;
-  border-width: 11px 11px 0 11px;
-  border-color: #FDFFFF transparent transparent transparent;
-  content: "";
-  position: absolute;
-  bottom: -9.5px; left: 50%;
-  margin-left: -10px;
-  width: 0px;
-  height: 0px;
-  z-index: -1;      /*重なりの一番下*/
-  /*  left:45%;
-}
-.rotated {
-  transform: rotate(-15deg);     /* 少し傾ける*/
-  /*  }
-*/
-
+h1{        /*写真に合わせて傾ける*/
+    position: relative; right; 
+    color: glay;
+    top:-70px; 
+    transform: rotate(24deg);
+    -moz-transform: rotate(24deg);
+    -webkit-transform: rotate(24deg);
+ }
+ 
 button {     /*右端角を丸く*/
   padding: 5px 15px;
   background-color: black;
@@ -90,6 +46,8 @@ input {       /*左端角を丸く*/
 
 h3 {
     color:black;
+     position: relative; 
+    top:-15px; 
 }
 
 a {           
@@ -97,13 +55,20 @@ a {
    }
 
 footer {
-     width: 500px;
+      width: 500px;
  　 height: 50px;
       position: absolute; /*絶対位置*/
-      bottom: 15px; /*下からの距離**/
+      bottom: 0px; /*下からの距離**/
      text align:center;
- }
+}
  
-h6 {
-    color:lightgray;
+h6 {      /*写真に合わせて傾ける*/
+     color:lightgray;
+     position: relative; 
+     right: -270px; 
+     bottom:-32px;
+     transform: rotate(-12.5deg);
+    -moz-transform: rotate(-12.5deg);
+    -webkit-transform: rotate(-12.5deg);
+
   }
