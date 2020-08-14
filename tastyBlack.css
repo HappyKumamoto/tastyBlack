@@ -1,33 +1,33 @@
 
 body {
-  width: 900px;
-  height: 1200px;
+  width: 950px;
+  height: 750px;
 
   background-image:url(SakuraJima.png);
   background-repeat: no-repeat;
-  background-size: 1200px;
-  background-position: center top 20px;
+  background-size: 1180px;
+  object-fit: contain;
+  background-position: center top 30px;
 
   margin-right: auto;
   margin-left : auto;
+  margin-top: auto;
+  margin-bottom:auto;
 }
 
 h5 {      /*写真に合わせて傾ける*/
     color:lightgray;
     position: relative; 
-    top:-60px; 
-    transform: rotate(23.5deg);
-    -moz-transform: rotate(23.5deg);
-    -webkit-transform: rotate(23.5deg);
-  }
+    top:-77px; 
+    transform: rotate(26deg);
+     }
   
 h1{        /*写真に合わせて傾ける*/
     position: relative; right; 
     color: glay;
     top:-70px; 
-    transform: rotate(24deg);
-    -moz-transform: rotate(24deg);
-    -webkit-transform: rotate(24deg);
+    transform: rotate(26deg);
+   
  }
  
 button {     /*右端角を丸く*/
@@ -44,7 +44,7 @@ input {       /*左端角を丸く*/
   border-radius:10px 0px 0px 10px;
 }
 
-h3 {
+h3 {     /*写真との関係で通常より上位置*/
     color:black;
      position: relative; 
     top:-15px; 
@@ -54,21 +54,14 @@ a {
     color:black;   
    }
 
-footer {
-      width: 500px;
- 　 height: 50px;
-      position: absolute; /*絶対位置*/
-      bottom: 0px; /*下からの距離**/
-     text align:center;
+.Footer {
+position: fixed; /* フッターを固定する */
+bottom: -85px; /* 上部から配置の基準位置を決める */
+text-align:right; 
+width: 60%; /* フッターの横幅を指定する */
+height: 35px; /* フッターの高さを指定する */
+padding:0px; /* フッター内側の余白を指定する(上下左右) */
+color: lightgray; /* フッターのフォントの色を指定する */
+transform: rotate(-19deg);
 }
- 
-h6 {      /*写真に合わせて傾ける*/
-     color:lightgray;
-     position: relative; 
-     right: -270px; 
-     bottom:-32px;
-     transform: rotate(-12.5deg);
-    -moz-transform: rotate(-12.5deg);
-    -webkit-transform: rotate(-12.5deg);
 
-  }
