@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="UTF-8">
+   <title>◯◯◯◯の黒が当たる！</title>
+   <link rel="stylesheet" href="tastyBlack.css">
+</head>
+  
+<body>
+    <h5 align="right">スーパーN 感謝キャンペーン</h5> 
+    
+    <h1 align="right" id="header" > 
+      <!--文字列が往復する。jsで透明度も変化する。-->
+      <!--marqueeをつける前からある部分も、見え方の都合上透明にして配置-->
+      <marquee width= "300" behavior="alternate" scrollamount="3.5">
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.0;">.</span>
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.0;">・</span>
+          <span style="opacity: 0.4;">　鹿　児　島　</span>
+          <span style="opacity: 0.0;">.</span>
+          <span style="opacity: 0.0;">.</span>
+       </marquee>
+    </h1>
+   
+    <div style="color: #FDFFFF; font-size:250%;">　 ◯◯◯◯
+ 	     <span style="font-size:70%;">の</span> 
+	     <span style="color: black;" >黒</span> 
+  	     <span style = "font-size:70%;">が</span>
+  	     <span style = "font-size:90%;"> 当たる！</span>
+    </div>
+  
+    <div style="color: lightgray; font-size:100%;">　ひらがな4文字を入れてみてください</div> 
+    <input type="text" id="answer" size="26" maxlength="4"/>
+    <button id="assessment">正解は？</button>
+	
+	<h3 id="result-area" ></h3>
+    <script src="tastyBlack.js"></script>  
+ 
+  
+   </body>  
+</html>
