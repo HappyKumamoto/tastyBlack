@@ -37,9 +37,12 @@ const answer = answerInput.value;
    };
     
   //正解の時のみ、応募フォームを表示
-  //正解は、 ’かごしま' ・地元の人の言い方 'かごんま' のときのみ
+  //正解は、 ’かごしま' か地元の人の言い方 'かごんま' のときのみ
   if(answer==='かごしま' || 'かごんま'===answer) { 
-           document.getElementById('result-area').innerHTML=('大正解！！ 南国 鹿児島の "黒豚" "黒牛" "黒さつま鶏" "黒酢"  "うなぎ" 他、盛りだくさんの中から<br>うんまか~黒を お選びください！ ＊===============================＊ <a href = "https://www.nnn.ed.nico" target="_blank"> ご応募はこちら(N予備校)</a> '); 
+           document.getElementById('result-area').innerHTML=('大正解！！ 南国 鹿児島の "黒豚" "黒牛" '+
+           ' "黒さつま鶏" "黒酢"  "うなぎ" 他、盛りだくさんの中から<br>うんまか~黒を お選びください！'+
+           ' ＊===============================＊ <a href = "https://www.nnn.ed.nico" target="_blank">'+
+           ' ご応募はこちら(N予備校)</a> '); 
     } else {
         document.getElementById('result-area').innerHTML="おしいです！　再度挑戦してみてください！";
     };
