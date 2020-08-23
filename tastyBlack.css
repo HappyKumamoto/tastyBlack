@@ -27,21 +27,42 @@ h1{        /*写真に合わせて傾ける*/
     color: glay;
     top:-70px; 
     transform: rotate(26deg);
-   
- }
+  }
+  
+.marquee-anima{
+      overflow: hidden;
+    }
+    
+.marquee-anima span {
+       display:inline-block;       
+       width:250px;
+       animation: marquee  20s linear infinite;
+       }
+       
+ @keyframes marquee {
+     0%{
+      transform: translate(10%);
+      }
+      50%{
+     transform:translate(-80%);
+     }
+     100%{
+      transform:translate(10%);
+      }
+        
  
+input {       /*左端角を丸く*/
+  height: 27px;
+  border-style: none;
+  border-radius:10px 0px 0px 10px;
+}
+
 button {     /*右端角を丸く*/
   padding: 5px 15px;
   background-color: black;
   color: #FDFFFF;
   border-style: none;
   border-radius:0px 10px 10px 0px;
-}
-
-input {       /*左端角を丸く*/
-  height: 27px;
-  border-style: none;
-  border-radius:10px 0px 0px 10px;
 }
 
 h3 {     /*写真との関係で通常より上位置*/
