@@ -41,8 +41,8 @@ const answer = answerInput.value;
   if(answer==='かごしま' || 'かごんま'===answer) { 
            document.getElementById('result-area').innerHTML=('大正解！！ 南国 鹿児島の "黒豚" "黒牛" '+
            ' "黒さつま鶏" "黒酢"  "うなぎ" 他、盛りだくさんの中から<br>うんまか~黒を お選びください！'+
-           ' ＊===============================＊ <a href = "https://www.nnn.ed.nico" target="_blank">'+
-           ' ご応募はこちら(N予備校)</a> '); 
+           ' <a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">'+
+           ' ご応募はこちら(Heroku)</a> '); 
     } else {
         document.getElementById('result-area').innerHTML="おしいです！　再度挑戦してみてください！";
     };
