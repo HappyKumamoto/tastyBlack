@@ -39,12 +39,12 @@ const answer = answerInput.value;
   //正解の時のみ、応募フォームを表示
   //正解は、 ’かごしま' か地元の人の言い方 'かごんま' のときのみ
   if(answer==='かごしま' || 'かごんま'===answer) { 
-           document.getElementById('result-area').innerHTML=('大正解！！ 南国 鹿児島の "黒豚" "黒牛" '+
-           ' "黒さつま鶏" "黒酢"  "うなぎ" 他、盛りだくさんの中から<br>うんまか~黒を お選びください！'+
-           ' <a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">'+
-           ' ご応募はこちら(Heroku)</a> '); 
+           document.getElementById('result-area').innerHTML=(`大正解！！ 南国 鹿児島の 「黒豚」「黒牛」
+           「黒さつま鶏」「黒酢」「うなぎ」他、盛りだくさんの中から<br>うんまか ~ 黒を お選びください！
+            <a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
+            ご応募はこちら(Heroku)</a> `);
     } else {
-        document.getElementById('result-area').innerHTML="おしいです！　再度挑戦してみてください！";
+        document.getElementById('result-area').innerHTML=`おしいです！　再度挑戦してみてください！`;
     };
  };
  
@@ -55,11 +55,3 @@ const answer = answerInput.value;
     }
  };
   
- //エンターを日本語変換完了と区別するため
- //上記コードに変更
- //answerInput.onkeydown = event => {
-   // if (event.key === 'Enter') {
-         //assessmentButton.onclick();
-     // }
-//};
-
