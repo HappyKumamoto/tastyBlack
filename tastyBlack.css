@@ -54,3 +54,28 @@ h3 {     /*写真との関係で通常より上位置*/
 a {           
     color:black;   
    }
+
+  a.btn {
+    margin: 0 auto;
+    background-size: 120%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding: 40px 0;
+    line-height: 20px;
+    border: double 4px;
+    border-radius: 20%;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .6s;
+    position:fixed;	
+	bottom:115px;
+	right:420px;
+}
+ 
+a.btn:hover {
+    transform: rotateX(360deg);
+}
