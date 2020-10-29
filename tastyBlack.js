@@ -40,7 +40,7 @@ const answer = answerInput.value;
   //正解は、 ’かごしま' か地元の人の言い方 'かごんま' のときのみ
   if(answer==='かごしま' || 'かごんま'===answer) { 
            document.getElementById('result-area').innerHTML=(`大正解！！ 南国 鹿児島の 「黒豚」「黒牛」
-           「黒さつま鶏」「黒酢」「うなぎ」他、盛りだくさんの中から<br>うんまか ~ 黒を お選びください！
+           「黒さつま鶏」「黒酢」「黒米」他、盛りだくさんの中から<br>薩摩の黒食材をお選びください！
             <a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
             ご応募はこちら(Heroku)</a> `);
     } else {
