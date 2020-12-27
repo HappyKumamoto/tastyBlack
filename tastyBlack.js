@@ -41,8 +41,9 @@ const answer = answerInput.value;
   if(answer==='かごしま' || 'かごんま'===answer) { 
            document.getElementById('result-area').innerHTML=(`大正解！！ 南国 鹿児島の 「黒豚」「黒牛」
            「黒さつま鶏」「黒酢」「黒米」他、<br>盛りだくさんの中から薩摩の黒食材をお選びください！
-            <a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
-            ご応募はこちら(Heroku)</a> `);
+            <a href = "https://www.nnn.ed.nico/" target="_blank">ご応募はこちら(N予備校)</a> </p>`);
+            //<a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
+            //ご応募はこちら(Heroku)</a> `);
     } else {
         document.getElementById('result-area').innerHTML=`おしいです！　再度挑戦してみてください！`;
     };
