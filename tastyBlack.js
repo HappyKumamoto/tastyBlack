@@ -39,9 +39,9 @@ const answer = answerInput.value;
   //正解の時のみ、応募フォームを表示
   //正解は、 ’かごしま' か地元の人の言い方 'かごんま' のときのみ
   if(answer==='かごしま' || 'かごんま'===answer) { 
-           document.getElementById('result-area').innerHTML=(`大正解！！ 南国 鹿児島の 「黒豚」「黒牛」
-           「黒さつま鶏」「黒酢」「黒米」他、<br>盛りだくさんの中から薩摩の黒食材をお選びください！
-            <a href = "https://www.nnn.ed.nico/" target="_blank">ご応募はこちら(N予備校)</a> </p>`);
+           document.getElementById('result-area').innerHTML=(`大正解！！ よろしければ、南国 鹿児島の「黒食材」や
+           人気の観光地についての<br>アンケートにお答えお願いいたします。
+            <a href = "https://www.nnn.ed.nico/" target="_blank">アンケートはこちら(N予備校)</a> </p>`);
             //<a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
             //ご応募はこちら(Heroku)</a> `);
     } else {
