@@ -41,7 +41,7 @@ const answer = answerInput.value;
   if(answer==='かごしま' || 'かごんま'===answer) { 
            document.getElementById('result-area').innerHTML=(`大正解！！ よろしければ、南国 鹿児島の「黒食材」や
            人気の観光地についての<br>アンケートにお答えお願いいたします。
-            <a href = "https://www.nnn.ed.nico/" target="_blank">アンケートはこちら(N予備校)</a> </p>`);
+            <a href = "https://secure-dusk-48588.herokuapp.com/applicationForm/tasty-black" target="_blank">アンケートはこちら(Heroku)</a> </p>`);
             //<a href = "https://secret-shore-96743.herokuapp.com/enquetes/tasty-black" target="_blank">
             //ご応募はこちら(Heroku)</a> `);
     } else {
